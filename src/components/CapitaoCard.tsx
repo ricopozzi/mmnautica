@@ -66,7 +66,6 @@ export function CapitaoCard() {
                       preparo e disciplina.
                     </p>
                     <p className='mt-2 text-sm'>
-                      {" "}
                       Duração de um mês ininterrupto, normalmente o mês que
                       antecede o exame da marinha.
                     </p>
