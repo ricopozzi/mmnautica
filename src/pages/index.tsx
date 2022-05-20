@@ -37,8 +37,8 @@ const Home: NextPage = () => {
           className='mx-auto mt-8 md:mt-60 rounded-lg w-11/12 md:w-7/12 shadow-2xl '
         />
         <h2 className='text-center mt-7 font-medium text-slate-700'>
-          "O mar é a escola, o vento o professor, nossos barcos salas de aula e
-          todos somos alunos."
+          O mar é a escola, o vento o professor, nossos barcos salas de aula e
+          todos somos alunos.
         </h2>
 
         <h1 className='mt-12 text-center font-bold text-xl'>Parceiros:</h1>
