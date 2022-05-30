@@ -7,12 +7,12 @@ import { MotonautaCard } from "./MotonautaCard";
 export function ServicesSection() {
   return (
     <>
-      <div id='services' className='mt-7 px-5 min-h-80 m  r'>
+      <div id='services' className='mt-7 px-5 min-h-80'>
         <div className='flex items-center md:justify-center'>
           <img src='/boat.svg' alt='' className='w-10' />
           <h1 className='font-bold text-xl ml-2'>Serviços</h1>
         </div>
-        <div className='lg:grid grid-cols-2 gap-y-3 lg:mt-5 lg:w-[80vw] xl:w-[60vw] lg:mx-auto'>
+        <div className='lg:grid grid-cols-2 gap-y-3 lg:mt-7 lg:w-[80vw] xl:w-[50vw] lg:mx-auto'>
           <h2 className='lg:hidden mt-4 font-semibold text-lg text-center'>
             Arrais amador
           </h2>
