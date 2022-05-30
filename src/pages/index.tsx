@@ -16,6 +16,10 @@ const Home: NextPage = () => {
 
   return (
     <>
+      <Head>
+        <title>MM Náutica</title>
+        <link rel='icon' type='image/x-icon' href='mmlogo.png' />
+      </Head>
       <Header />
       <main className=' min-h-screen  md:mx-auto '>
         <div
