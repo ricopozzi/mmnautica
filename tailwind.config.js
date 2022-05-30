@@ -12,10 +12,12 @@ module.exports = {
         'sans': ['Inter', ...defaultTheme.fontFamily.sans],
       },
       backgroundImage: {
-        'wavebackground': "url('/wave.svg')",
-        
+        'boatbackground': "url('/bgboat.jpg')",
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require("daisyui"),
+
+  ],
 }

@@ -2,9 +2,9 @@ import { Menu } from "@headlessui/react";
 
 export function DropdownMenu({ handleClick }: any) {
   return (
-    <Menu as='div' className='relative ml-auto pt-4'>
+    <Menu as='div' className='relative ml-auto pt-4 z-20'>
       <Menu.Button
-        className='inline-flex md:hidden ml-auto mr-2 justify-center w-14 h-14 bg-blue-400 my-auto rounded-md border shadow-sm px-4 text-center
+        className='inline-flex md:hidden ml-auto mr-2 justify-center w-14 h-14 bg-blue-500 my-auto rounded-md border shadow-sm px-4 text-center
       items-center text-white font-semibold bordernone
       '
       >

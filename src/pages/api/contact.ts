@@ -14,7 +14,7 @@ const transporter = nodemailer.createTransport({
 export default function ( req:NextApiRequest, res:NextApiResponse) {
 
      const mailData = {
-        from: `${req.body.email}`,
+        from: `mmnauticawebsite@gmail.com`,
         to: 'mmnauticailhabela@gmail.com',
         subject: `Mensagem de ${req.body.name}`,
         text: `${req.body.name}, ${req.body.email}, ${req.body.phone} `,

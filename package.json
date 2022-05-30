@@ -11,6 +11,7 @@
   "dependencies": {
     "@headlessui/react": "^1.6.1",
     "@hookform/resolvers": "^2.8.10",
+    "daisyui": "^2.15.1",
     "flowbite": "^1.4.5",
     "next": "12.1.6",
     "nodemailer": "^6.7.5",

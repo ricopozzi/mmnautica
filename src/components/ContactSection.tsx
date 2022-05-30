@@ -51,7 +51,7 @@ export function ContactSection() {
     <>
       <div
         id='contact'
-        className='mt-8 px-5 min-h-80 flex flex-col md:w-3/6 md:mx-auto duration-150'
+        className='mt-8 px-5 min-h-80 flex flex-col md:w-2/6 md:mx-auto duration-150'
       >
         <div>
           <h1 className='text-center mt-3 font-semibold text-lg text-gray-700'>
@@ -69,7 +69,7 @@ export function ContactSection() {
           >
             <input
               type='text'
-              className='mx-auto h-8 w-11/12 border rounded-lg border-blue-300 px-2'
+              className='mx-auto h-9 w-11/12 border rounded-lg border-blue-300 px-2'
               placeholder='Nome completo'
               {...register("name")}
             />
@@ -80,7 +80,7 @@ export function ContactSection() {
             )}
             <input
               type='text'
-              className='mx-auto h-8 w-11/12 border rounded-lg border-blue-300 px-2 mt-7'
+              className='mx-auto h-9 w-11/12 border rounded-lg border-blue-300 px-2 mt-7'
               placeholder='Email'
               {...register("email")}
             />
@@ -91,7 +91,7 @@ export function ContactSection() {
             )}
             <input
               type='text'
-              className='mx-auto h-8 w-11/12 border rounded-lg border-blue-300 px-2 mt-7'
+              className='mx-auto h-9 w-11/12 border rounded-lg border-blue-300 px-2 mt-7'
               placeholder='Telefone com DDD'
               {...register("phone")}
             />

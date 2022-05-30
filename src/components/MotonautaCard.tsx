@@ -16,17 +16,36 @@ export function MotonautaCard() {
     <>
       <div
         onClick={openModal}
-        className='max-w-xl min-h-52 bg-white mt-2 rounded-lg drop-shadow-xl border px-4 py-2 flex flex-col hover:cursor-pointer mx-auto'
+        className='max-w-xl min-h-52 bg-white hover:bg-stone-200 mt-2 rounded-lg drop-shadow-2xl border pr-4 flex flex-col hover:cursor-pointer 
+        mx-auto lg:hidden'
       >
         <div className='flex items-center'>
-          <img
-            src='https://media.istockphoto.com/vectors/thumbnail-image-vector-graphic-vector-id1147544807?k=20&m=1147544807&s=612x612&w=0&h=pBhz1dkwsCMq37Udtp9sfxbjaMl27JUapoyYpQm0anc='
-            alt=''
-            className='rounded-md h-32'
-          />
+          <img src='motonauta.jpg' alt='' className='rounded-l-md h-32 w-32' />
           <p className='pl-5 pr-2 font-normal text-slate-600'>
             Habilita o aluno a comandar motos aquáticas
           </p>
+        </div>
+      </div>
+
+      <div
+        onClick={openModal}
+        className='mt-2 w-96 bg-base-100 drop-shadow-xl hidden lg:flex lg:flex-col ml-auto rounded-lg'
+      >
+        <figure>
+          <img
+            src='motonauta.jpg'
+            alt='Shoes'
+            className='rounded-t-lg object-cover h-52 w-full'
+          />
+        </figure>
+        <div className='card-body'>
+          <h2 className='card-title'>Motonauta!</h2>
+          <p>Habilita o aluno a comandar motos aquáticas</p>
+          <div className='card-actions justify-end'>
+            <button className=' bg-blue-100 w-24 h-9 rounded-md mt-2 text-blue-900 font-medium '>
+              Ver Mais
+            </button>
+          </div>
         </div>
       </div>
 
@@ -84,7 +103,6 @@ export function MotonautaCard() {
                       <li>- Taxas da marinha</li>
                       <li>- Serviço de despachante</li>
                       <li>- Treinamento prático de 3 horas</li>
-                      <li>- Lanche a bordo</li>
                     </ul>
                     <p></p>
                   </div>

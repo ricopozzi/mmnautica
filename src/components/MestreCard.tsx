@@ -16,18 +16,44 @@ export function MestreCard() {
     <>
       <div
         onClick={openModal}
-        className='max-w-xl min-h-52 bg-white mt-2 rounded-lg drop-shadow-xl border px-4 py-2 flex flex-col hover:cursor-pointer mx-auto'
+        className='max-w-xl md:w-2xl min-h-52 bg-white hover:bg-stone-200 mt-2 rounded-lg drop-shadow-xl border pr-4 flex flex-col hover:cursor-pointer
+         mx-auto lg:hidden'
       >
         <div className='flex items-center'>
           <img
-            src='https://media.istockphoto.com/vectors/thumbnail-image-vector-graphic-vector-id1147544807?k=20&m=1147544807&s=612x612&w=0&h=pBhz1dkwsCMq37Udtp9sfxbjaMl27JUapoyYpQm0anc='
+            src='mestre.png'
             alt=''
-            className='rounded-md h-32'
+            className='rounded-l-md object-cover h-32 w-32'
           />
           <p className='pl-5 pr-2 font-normal text-slate-600'>
             Habilita o aluno a conduzir embarcações de esporte e recreio a até
             20 milhas náuticas da costa.
           </p>
+        </div>
+      </div>
+
+      <div
+        onClick={openModal}
+        className='mt-2 w-96 bg-base-100 drop-shadow-2xl hidden lg:flex lg:flex-col ml-auto rounded-lg'
+      >
+        <figure>
+          <img
+            src='mestre.png'
+            alt='Shoes'
+            className='rounded-t-lg object-cover object-bottom w-full h-52'
+          />
+        </figure>
+        <div className='card-body'>
+          <h2 className='font-semibold text-xl'>Mestre amador!</h2>
+          <p>
+            Habilita o aluno a conduzir embarcações de esporte e recreio a até
+            20 milhas náuticas da costa.
+          </p>
+          <div className='card-actions justify-end'>
+            <button className=' bg-blue-100 w-24 h-9 rounded-md mt-2 text-blue-900 font-medium '>
+              Ver Mais
+            </button>
+          </div>
         </div>
       </div>
 

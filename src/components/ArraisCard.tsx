@@ -17,18 +17,45 @@ export function ArraisCard() {
     <>
       <div
         onClick={openModal}
-        className='max-w-xl min-h-52 bg-white mt-2 rounded-lg drop-shadow-xl border px-4 py-2 flex flex-col hover:cursor-pointer mx-auto'
+        className='max-w-xl lg:hidden min-h-52 bg-white mt-2 rounded-lg drop-shadow-xl border pr-4 flex flex-col duration-200 hover:cursor-pointer mx-auto 
+        hover:bg-stone-200'
       >
         <div className='flex items-center'>
           <img
-            src='https://media.istockphoto.com/vectors/thumbnail-image-vector-graphic-vector-id1147544807?k=20&m=1147544807&s=612x612&w=0&h=pBhz1dkwsCMq37Udtp9sfxbjaMl27JUapoyYpQm0anc='
+            src='arraismobile.jpg'
             alt=''
-            className='rounded-md h-32'
+            className='rounded-l-md  object-cover h-32 w-32'
           />
+
           <p className='pl-5 pr-2 font-normal text-slate-600'>
             Habilita o aluno a comandar embarcações de esporte e recreio em
             aguas abrigadas.
           </p>
+        </div>
+      </div>
+
+      <div
+        onClick={openModal}
+        className='mt-2 w-96 bg-base-100 drop-shadow-2xl hidden lg:flex lg:flex-col mr-auto rounded-lg'
+      >
+        <figure className=''>
+          <img
+            src='arrais.jpg'
+            alt='Shoes'
+            className='rounded-t-lg object-cover w-full h-52'
+          />
+        </figure>
+        <div className='card-body'>
+          <h2 className='card-title'>Arrais amador!</h2>
+          <p>
+            Habilita o aluno a comandar embarcações de esporte e recreio em
+            aguas abrigadas.
+          </p>
+          <div className='card-actions justify-end'>
+            <button className=' bg-blue-100 w-24 h-9 rounded-md mt-7 text-blue-900 font-medium '>
+              Ver Mais
+            </button>
+          </div>
         </div>
       </div>
 
@@ -93,7 +120,7 @@ export function ArraisCard() {
                     <p></p>
                   </div>
 
-                  <div className='mt-4'>
+                  <div className='mt-4 hover:cursor-pointer'>
                     <div
                       className='inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none '
                       onClick={closeModal}
