@@ -20,11 +20,7 @@ export function CapitaoCard() {
         mx-auto lg:hidden'
       >
         <div className='flex items-center'>
-          <img
-            src='capitaomobile.jpg'
-            alt=''
-            className='rounded-l-md h-32 w-32'
-          />
+          <img src='mestre.png' alt='' className='rounded-l-md h-32 w-32' />
           <p className='pl-5 pr-2 font-normal text-slate-600'>
             Habilita o aluno a conduzir embarcações de esporte e recreio entre
             portos nacionais e estrangeiros
@@ -38,7 +34,7 @@ export function CapitaoCard() {
       >
         <figure>
           <img
-            src='capitao.jpg'
+            src='mestre.png'
             alt='Shoes'
             className='rounded-t-lg object-cover w-full h-52'
           />

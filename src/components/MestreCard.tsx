@@ -21,7 +21,7 @@ export function MestreCard() {
       >
         <div className='flex items-center'>
           <img
-            src='mestre.png'
+            src='capitaomobile.jpg'
             alt=''
             className='rounded-l-md object-cover h-32 w-32'
           />
@@ -38,9 +38,9 @@ export function MestreCard() {
       >
         <figure>
           <img
-            src='mestre.png'
+            src='capitao.jpg'
             alt='Shoes'
-            className='rounded-t-lg object-cover object-bottom w-full h-52'
+            className='rounded-t-lg object-cover w-full h-52'
           />
         </figure>
         <div className='card-body'>

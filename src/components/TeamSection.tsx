@@ -6,14 +6,9 @@ export function TeamSection() {
           <img src='/team.svg' alt='' className='w-10' />
           <h1 className='font-bold text-xl ml-2'>Equipe</h1>
         </div>
-        <img
-          src='https://tudoemilhabela.com.br/img/site/mm_navegacao_e_cursos_nauticos9.jpeg'
-          alt=''
-          className='mt-4 rounded-lg w-72 md:w-96 mx-auto shadow-2xl'
-        />
 
         <h2 className='mt-7 mb-3 font-medium text-lg text-gray-700 text-center'>
-          Equipe MM Náutica, da esquerda para direita:{" "}
+          Equipe MM Náutica:
         </h2>
 
         <h2 className='mt-4 font-medium text-center text-slate-700'>
