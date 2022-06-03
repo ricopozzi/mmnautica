@@ -2,7 +2,7 @@ import { Transition, Dialog } from "@headlessui/react";
 import { useState, Fragment } from "react";
 import { RiWhatsappLine } from "react-icons/ri";
 
-export function CapitaoCard() {
+export function VeleirosCard() {
   let [isOpen, setIsOpen] = useState(false);
 
   function closeModal() {
@@ -20,10 +20,10 @@ export function CapitaoCard() {
         mx-auto lg:hidden'
       >
         <div className='flex items-center'>
-          <img src='capitao.jpeg' alt='' className='rounded-l-md h-32 w-32' />
+          <img src='mestre.png' alt='' className='rounded-l-md h-32 w-32' />
           <p className='pl-5 pr-2 font-normal text-slate-600'>
-            Habilita o aluno a conduzir embarcações de esporte e recreio entre
-            portos nacionais e estrangeiros
+            Habilita o aluno a conduzir embarcação a vela sem propulsão a motor
+            nos limites da navegação interior.
           </p>
         </div>
       </div>
@@ -34,16 +34,16 @@ export function CapitaoCard() {
       >
         <figure>
           <img
-            src='capitao.jpeg'
+            src='mestre.png'
             alt='Shoes'
             className='rounded-t-lg object-cover w-full h-52'
           />
         </figure>
         <div className='card-body'>
-          <h2 className='card-title'>Capitão amador</h2>
+          <h2 className='card-title'>Veleiro</h2>
           <p>
-            Habilita o aluno a conduzir embarcações de esporte e recreio entre
-            portos nacionais e estrangeiros
+            Habilita o aluno a conduzir embarcação a vela sem propulsão a motor
+            nos limites da navegação interior.
           </p>
           <div className='card-actions justify-end'>
             <button className=' bg-blue-100 w-24 h-9 rounded-md mt-2 text-blue-900 font-medium '>
@@ -80,16 +80,14 @@ export function CapitaoCard() {
               >
                 <Dialog.Panel className='w-full max-w-md transform overflow-hidden rounded-2xl -z-50 bg-white p-6 text-left align-middle shadow-xl transition-all'>
                   <div className='mt-2'>
-                    <p className='mt-2 text-lg font-semibold'>
-                      Capitão amador:
+                    <p className='mt-2 text-lg font-semibold'>Veleiro</p>
+                    <p className='mt-2 text-sm'>
+                      A Carteira de habilitação de veleiro amador possui caráter
+                      facultativo.
                     </p>
                     <p className='mt-2 text-sm'>
-                      Acontece duas vezes por ano, exige do aluno muito estudo,
-                      preparo e disciplina.
-                    </p>
-                    <p className='mt-2 text-sm'>
-                      Duração de um mês ininterrupto, normalmente o mês que
-                      antecede o exame da marinha.
+                      Para a sua emissão, o interessado deverá possuir idade
+                      mínima de oito anos
                     </p>
                   </div>
 

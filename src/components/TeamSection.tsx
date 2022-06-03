@@ -3,7 +3,6 @@ export function TeamSection() {
     <>
       <div id='team' className='mt-8 px-5 min-h-80 flex flex-col'>
         <div className='flex items-center md:justify-center mt-7 mb-3'>
-          <img src='/team.svg' alt='' className='w-10' />
           <h1 className='font-bold text-xl ml-2'>Equipe</h1>
         </div>
 
@@ -17,8 +16,7 @@ export function TeamSection() {
         <p className='mt-2 text-sm text-slate-600 md:w-1/2 md:mx-auto'>
           CEO da MM Nautica, Yachtmaster offshore, MAC da Marinha Mercante,
           instrutor de mergulho autônomo pelas certificadoras PADI e SSI.
-          Apaixonado pela navegação e da mesma forma que a equipe da escola,
-          realiza o trabalho com muito amor.
+          Apaixonado pela navegação e da mesma forma que a equipe da escola.
         </p>
 
         <h2 className='mt-2 font-medium text-center text-slate-700 '>

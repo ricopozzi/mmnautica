@@ -46,7 +46,7 @@ export function ArraisCard() {
           />
         </figure>
         <div className='card-body'>
-          <h2 className='card-title'>Arrais amador!</h2>
+          <h2 className='card-title'>Arrais amador</h2>
           <p>
             Habilita o aluno a comandar embarcações de esporte e recreio em
             aguas abrigadas.

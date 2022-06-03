@@ -39,7 +39,7 @@ export function MotonautaCard() {
           />
         </figure>
         <div className='card-body'>
-          <h2 className='card-title'>Motonauta!</h2>
+          <h2 className='card-title'>Motonauta</h2>
           <p>Habilita o aluno a comandar motos aquáticas</p>
           <div className='card-actions justify-end'>
             <button className=' bg-blue-100 w-24 h-9 rounded-md mt-2 text-blue-900 font-medium '>

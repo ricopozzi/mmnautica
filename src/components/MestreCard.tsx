@@ -44,7 +44,7 @@ export function MestreCard() {
           />
         </figure>
         <div className='card-body'>
-          <h2 className='font-semibold text-xl'>Mestre amador!</h2>
+          <h2 className='font-semibold text-xl'>Mestre amador</h2>
           <p>
             Habilita o aluno a conduzir embarcações de esporte e recreio a até
             20 milhas náuticas da costa.
