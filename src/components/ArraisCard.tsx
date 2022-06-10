@@ -17,7 +17,7 @@ export function ArraisCard() {
     <>
       <div
         onClick={openModal}
-        className='max-w-xl lg:hidden min-h-52 bg-white mt-2 rounded-lg drop-shadow-xl border pr-4 flex flex-col duration-200 hover:cursor-pointer mx-auto 
+        className='max-w-xl lg:hidden min-h-52 bg-white mt-2 rounded-lg drop-shadow-xl border pr-1 py-1 flex flex-col duration-200 hover:cursor-pointer mx-auto 
         hover:bg-stone-200'
       >
         <div className='flex items-center'>
@@ -27,7 +27,7 @@ export function ArraisCard() {
             className='rounded-l-md  object-cover h-32 w-32'
           />
 
-          <p className='pl-5 pr-2 font-normal text-slate-600'>
+          <p className='pl-5 pr-1 text-[15px] font-normal text-slate-600'>
             Habilita o aluno a comandar embarcações de esporte e recreio em
             aguas abrigadas.
           </p>

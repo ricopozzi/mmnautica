@@ -16,7 +16,7 @@ export function VeleirosCard() {
     <>
       <div
         onClick={openModal}
-        className='max-w-xl min-h-52 bg-white hover:bg-stone-200 mt-2 rounded-lg drop-shadow-xl border pr-4 flex flex-col hover:cursor-pointer 
+        className='max-w-xl min-h-52 bg-white hover:bg-stone-200 mt-2 rounded-lg drop-shadow-xl border pr-1 py-1 flex flex-col hover:cursor-pointer 
         mx-auto lg:hidden'
       >
         <div className='flex items-center'>

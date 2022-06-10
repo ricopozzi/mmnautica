@@ -26,26 +26,6 @@ const Home: NextPage = () => {
           id='start'
           className='flex flex-col bg-indigo-500 max-w-screen h-[70vh]'
         >
-          {/* <h1 className='text-3xl font-bold text-center text-slate-800 md:z-50'>
-            ⛵ M M Náutica
-          </h1>
-          <h1 className='text-xl md:text-3xl font-semibold text-center text-slate-800 mt-2 md:z-50'>
-            Escola de Navegação
-          </h1> */}
-          {/* <img
-            src='mmlogo.png'
-            alt=''
-            className='z-10 absolute md:left-[23vw] top-64 w-52'
-          />
-
-          <h1 className='z-10 absolute md:left-[18vw] md:top-[23rem] text-5xl font-bold text-[#324679] tracking-wider'>
-            M M NÁUTICA
-          </h1>
-
-          <p className='z-10 absolute md:left-[12vw] md:top-[26.5rem] text-5xl font-bold text-white tracking-wider drop-shadow-2xl uppercase'>
-            Escola de navegação
-          </p> */}
-
           <div className='z-10 absolute left-0 right-0 w-[90vw] md:min-w-[25rem] mx-auto  md:left-[10vw] md:right-auto top-64 md:w-[25vw] h-64 p-4 bg-slate-800/30 backdrop-blur-sm rounded-md flex flex-col'>
             <img
               src='mmlogo.png'
@@ -98,7 +78,7 @@ const Home: NextPage = () => {
         <ServicesSection />
         <TeamSection />
         <InfoSection />
-        <div className='flex justify-center my-5'>
+        <div className='flex justify-center my-5 min-h-[500px] md:max-w-[340px] md:mx-auto'>
           <iframe
             src='https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmmnautica%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=863480194252331'
             width='340'
