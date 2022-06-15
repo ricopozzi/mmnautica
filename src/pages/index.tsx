@@ -26,7 +26,7 @@ const Home: NextPage = () => {
           id='start'
           className='flex flex-col bg-indigo-500 max-w-screen h-[70vh]'
         >
-          <div className='z-10 absolute left-0 right-0 w-[90vw] md:min-w-[25rem] mx-auto top-44  md:left-[10vw] md:right-auto md:top-64 md:w-[25vw] h-64 p-4 bg-slate-800/30 backdrop-blur-sm rounded-md flex flex-col'>
+          <div className='z-10 absolute left-0 right-0 w-[90vw] md:min-w-[25rem] mx-auto top-44  md:left-[10vw] md:right-auto md:top-64 md:w-[25vw] min-h-64 p-1 bg-slate-800/30 backdrop-blur-sm rounded-md flex flex-col'>
             <img
               src='mmlogo.png'
               alt=''
@@ -37,7 +37,7 @@ const Home: NextPage = () => {
               M M NÁUTICA
             </h1>
 
-            <p className='z-10 mt-4 text-xl font-bold text-white tracking-wider uppercase'>
+            <p className='z-10 mt-4 text-xl font-bold text-white tracking-wide uppercase'>
               Escola de navegação
             </p>
           </div>
@@ -81,7 +81,7 @@ const Home: NextPage = () => {
         <div className='flex justify-center my-5 min-h-[500px] md:max-w-[340px] md:mx-auto'>
           <iframe
             src='https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmmnautica%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=863480194252331'
-            width='300'
+            width='250'
             height='500'
             className='border-none overflow-hidden'
             scrolling='no'

@@ -8,7 +8,7 @@ import { VeleirosCard } from "./Veleiros";
 export function ServicesSection() {
   return (
     <>
-      <div id='services' className='mt-7 px-5 min-h-80'>
+      <div id='services' className='mt-7 px-2 min-h-80'>
         <div className='flex items-center justify-center mx-auto'>
           <h1 className='font-bold text-xl ml-2 text-center '>Serviços</h1>
         </div>
