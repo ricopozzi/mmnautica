@@ -81,7 +81,7 @@ const Home: NextPage = () => {
         <div className='flex justify-center my-5 min-h-[500px] md:max-w-[340px] md:mx-auto'>
           <iframe
             src='https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmmnautica%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=863480194252331'
-            width='340'
+            width='300'
             height='500'
             className='border-none overflow-hidden'
             scrolling='no'
