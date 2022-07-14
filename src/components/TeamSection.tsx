@@ -14,9 +14,8 @@ export function TeamSection() {
           Capitão Marcos Levy
         </h2>
         <p className='mt-2 text-justify text-slate-600 md:w-1/2 md:mx-auto'>
-          CEO da MM Nautica, Yachtmaster offshore, MAC da Marinha Mercante,
-          instrutor de mergulho autônomo pelas certificadoras PADI e SSI.
-          Apaixonado pela navegação e da mesma forma que a equipe da escola.
+          CEO da MM Nautica, Yachtmaster offshore, pertence à Marinha Mercante,
+          instrutor de mergulho SCUBA.Apaixonado pela navegação.
         </p>
 
         <h2 className='mt-4 font-medium text-center text-slate-700 '>
