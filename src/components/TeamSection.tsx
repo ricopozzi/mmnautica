@@ -33,6 +33,19 @@ export function TeamSection() {
           O coração da escola, arquiteta pós graduada em design náutico,
           navegadora habilitada e mergulhadora certificada.
         </p>
+
+        <h2 className='mt-4 font-medium text-center text-slate-700'>
+          André Cabral
+        </h2>
+
+        <img
+          src='/andre-cabral.webp'
+          className='w-36 h-36 mx-auto rounded-lg my-4'
+        />
+        <p className='mt-2  text-slate-600 md:w-1/2 md:mx-auto text-center'>
+          Esse é o André Cabral . Biologo, capitão amador e homem do mar
+          competente.
+        </p>
       </div>
     </>
   );

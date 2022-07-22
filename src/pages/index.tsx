@@ -26,7 +26,7 @@ const Home: NextPage = () => {
           id='start'
           className='flex flex-col bg-indigo-500 max-w-screen h-[70vh]'
         >
-          <div className='z-10 absolute left-0 right-0 w-[90vw] md:min-w-[25rem] mx-auto top-44  md:left-[10vw] md:right-auto md:top-64 md:w-[25vw] min-h-64 p-1 bg-slate-800/30 backdrop-blur-sm rounded-md flex flex-col'>
+          <div className='z-10 p-4 absolute left-0 right-0 w-[90vw] md:min-w-[25rem] mx-auto top-44  md:left-[10vw] md:right-auto md:top-64 md:w-[25vw] min-h-64 p-1 bg-slate-800/30 backdrop-blur-sm rounded-md flex flex-col'>
             <img
               src='mmlogo.png'
               alt=''
